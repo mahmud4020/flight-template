@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tailwind Starter</title>
+</head>
+
+<body>
+    <div class="w-full">
+        <div class="row flex flex-wrap md:justify-between justify-center bg-darkblue text-white md:px-16 py-3 px-4">
+            <div class="col-6 flex flex-wrap md:justify-start justify-center">
+                <div class="me-7 cursor-pointer">
+                    <i class="fa-solid fa-house me-1"></i>
+                    <span>+880-123-4567-787</span>
+                </div>
+                <div class="cursor-pointer">
+                    <i class="fa-solid fa-envelope me-1"></i>
+                    <span> demo@example.com</span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div>
+                    <span>
+                        <i class="fa-brands fa-twitter mr-3 text-xl cursor-pointer"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-facebook-f mr-3 text-xl cursor-pointer"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-linkedin-in mr-3 text-xl cursor-pointer"></i>
+                    </span>
+                    <span>
+                        <i class="fa-brands fa-whatsapp mr-3 text-xl cursor-pointer"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="md:bg-white text-black shadow-sm sticky top-0 bg-skyblue">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+                <div class="flex items-center md:justify-center justify-between h-16">
+                    <div class="flex items-center">
+                        <a href="#" class="text-black font-bold text-xl lg:absolute left-16">Logo</a>
+                        <div class="hidden md:block">
+                            <ul class="ml-10 flex items-baseline space-x-4">
+                                <li class="relative">
+                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                        <i class="fas fa-home  mb-2"></i>
+                                        Home
+                                    </a>
+                                    <div
+                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                    </div>
+                                </li>
+                                <li class="relative">
+                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                        <i class="fas fa-plane  mb-2"></i>
+                                        Flights
+                                    </a>
+                                    <div
+                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                    </div>
+                                </li>
+
+                                <li class="relative">
+                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                        <i class="fa-solid fa-bed  mb-2"></i>
+                                        Hotels
+                                    </a>
+                                    <div
+                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                    </div>
+                                </li>
+
+                                <li class="relative">
+                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                        <i class="fa-solid fa-mug-hot  mb-2"></i>
+                                        Holiday
+                                    </a>
+                                    <div
+                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                    </div>
+                                </li>
+
+                                <li class="relative">
+                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                        <i class="fa-sharp fa-solid fa-kaaba  mb-2"></i>
+                                        Umrah
+                                    </a>
+                                    <div
+                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                    </div>
+                                </li>
+
+                                <li class="relative">
+                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                        <i class="fa-sharp fa-solid fa-passport  mb-2"></i>
+                                        Visa
+                                    </a>
+                                    <div
+                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                    </div>
+                                </li>
+
+                                <li class="relative">
+                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                        <i class="fa-solid fa-gears  mb-2"></i>
+                                        activities
+                                    </a>
+                                    <div
+                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                    </div>
+                                </li>
+
+                                <li class="relative">
+                                    <a href="#" data-dropdown="my-dropdown"
+                                        class="hover:text-tahiti-600 relative items-center flex-col ms-4 flex"
+                                        id="home-link">
+
+                                        <i class="fa-solid fa-hashtag mb-2"></i>
+                                        <span class="flex justify-center items-center">
+                                            more
+                                            <i class="fa-solid fa-angle-down ms-2"></i>
+                                        </span>
+
+
+                                        <div id="my-dropdown"
+                                            class="absolute left-0 mt-2 w-40 text-gray-800 rounded-lg shadow-lg bg-offwhite z-50">
+                                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 1</a>
+                                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 2</a>
+                                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 3</a>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="md:hidden">
+                        <button id="mobile-menu-button" type="button" class="text-gray-300 focus:outline-none">
+                            <i class="fas fa-bars text-black"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="mobile-menu" class="hidden md:hidden">
+                    <ul class="mt-2 pb-3">
+                        <li class="relative">
+                            <a href="#"
+                                class="hover:text-tahiti-600 block pl-3 pr-4 py-2 border-l-4 border-transparent hover:border-gray-300">
+                                <i class="fas fa-home  mb-2"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li class="relative">
+                            <a href="#"
+                                class="hover:text-tahiti-600 block pl-3 pr-4 py-2 border-l-4 border-transparent hover:border-gray-300">
+                                <i class="fas fa-plane  mb-2"></i>
+                                Flights
+                            </a>
+                        </li>
+                        <!-- Add other menu items with icons -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="relative ">
+            <img class="-z-10 absolute h-96 w-full object-cover" src="../src/img/banner.jpg" alt="">
+            <div class="absolute top-8 w-full h-fit flex justify-center flex-col items-center">
+                <div class="w-full flex justify-center md:flex-row flex-col items-center">
+                    <span
+                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
+                            class="fas fa-plane me-2"></i> flight</span>
+                    <span
+                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white">
+                        <i class="fa-solid fa-bed  me-2"></i> hotel</span>
+                    <span
+                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
+                            class="fa-solid fa-mug-hot  me-2"></i> holiday</span>
+                    <span
+                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
+                            class="fa-sharp fa-solid fa-passport  me-2"></i> visa</span>
+                </div>
+
+                <div class="row flex-col  flex w-5/6 mt-5 rounded-sm bg-white p-3">
+                    <div class="w-full md:flex-row flex-col flex">
+                        <div class="flex flex-1 items-end">
+                            <div class="flex flex-col me-4">
+                                <div class="flex-1 md:text-left text-center">From</div>
+                                <div class="flex-1 text-xl font-semibold text-left">Madrid Spain 1</div>
+                            </div>
+                            <div><i class="fa-solid fa-repeat"></i></div>
+                            <div class="flex flex-col ms-4">
+
+                                <div class="flex-1 md:text-left text-center">To</div>
+                                <div class="flex-1 text-xl font-semibold text-left">Madrid Spain 2</div>
+                            </div>
+                        </div>
+
+
+                        <div class="flex-1 flex md:justify-end justify-center">
+                            <span class="flex items-center me-2">
+                                <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
+                                <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">One Way</label>
+                            </span>
+                            <span class="flex items-center me-2">
+                                <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
+                                <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">Round
+                                    Trip</label>
+                            </span>
+                            <span class="flex items-center">
+                                <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
+                                <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">Multi
+                                    City</label>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="text-center flex md:flex-row flex-col border-2 m-5 p-5 items-center justify-center">
+                        <div class="md:w-1/4 w-4/4 md:border-r-2 bottom-0">
+                            <div class="flex items-center justify-between">
+                                <div class="text-skyblue">Departure</div>
+                                <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
+                            </div>
+                            <div class="flex items-end">
+                                <div class="font-bold text-xl me-1">14</div>
+                                <div class="text-sm">May’23</div>
+                            </div>
+                            <div class="text-xs text-left">sunday</div>
+                        </div>
+
+                        <div class="md:w-1/4 w-4/4 md:border-r-2 bottom-0 md:px-6 px-0">
+                            <div class="flex items-center justify-between">
+                                <div class="text-skyblue">Return</div>
+                                <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
+                            </div>
+                            <div class="flex items-end">
+                                <div class="font-bold text-xl me-1">14</div>
+                                <div class="text-sm">May’23</div>
+                            </div>
+                            <div class="text-xs text-left">sunday</div>
+                        </div>
+                        <div class="md:w-1/4 w-4/4 md:ps-6 ps-0 flex flex-col md:items-start items-center"> 
+                            <div class="flex items-center justify-between">
+                                <div class="text-skyblue">PASSENGER & Cabin CLASS</div>
+                                <i class="fa-solid fa-angle-down ms-3 text-skyblue"></i>
+                            </div>
+                            <div class="flex items-end">
+                                <div class="font-bold text-xl me-1">14</div>
+                                <div class="text-sm">May’23</div>
+                            </div>
+                            <div class="text-xs text-left">sunday</div>
+                        </div>
+                        <div class="md:w-1/4 w-4/4">
+                            <button type="button" class="bg-blue py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">Search Flights</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var homeLink = document.getElementById('home-link');
+            var dropdown = document.getElementById(homeLink.getAttribute('data-dropdown'));
+
+            // Hide the dropdown menu by default
+            dropdown.style.display = 'none';
+
+            homeLink.addEventListener('click', function (e) {
+                e.preventDefault();
+                dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+            });
+
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>
