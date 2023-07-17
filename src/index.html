@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <div class="w-full">
+    <div class="w-full overflow-hidden">
+        <!-- top header -->
         <div class="row flex flex-wrap md:justify-between justify-center bg-darkblue text-white md:px-16 py-3 px-4">
             <div class="col-6 flex flex-wrap md:justify-start justify-center">
                 <div class="me-7 cursor-pointer">
@@ -44,7 +45,9 @@
             </div>
         </div>
 
-        <nav class="md:bg-white text-black shadow-sm sticky top-0 bg-skyblue">
+        <!-- nev bar -->
+
+        <nav class="md:bg-white text-black shadow-sm bg-skyblue">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
                 <div class="flex items-center md:justify-center justify-between h-16">
                     <div class="flex items-center">
@@ -173,9 +176,11 @@
             </div>
         </nav>
 
+        <!-- banner -->
+
         <div class="relative ">
-            <img class="-z-10 absolute h-96 w-full object-cover" src="../src/img/banner.jpg" alt="">
-            <div class="absolute top-8 w-full h-fit flex justify-center flex-col items-center">
+            <img class="h-96 w-full object-cover" src="../src/img/banner.jpg" alt="">
+            <div class="md:absolute md:mt-auto -mt-80 top-8 w-full h-fit flex justify-center flex-col items-center">
                 <div class="w-full flex justify-center md:flex-row flex-col items-center">
                     <span
                         class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
@@ -193,7 +198,7 @@
 
                 <div class="row flex-col  flex w-5/6 mt-5 rounded-sm bg-white p-3">
                     <div class="w-full md:flex-row flex-col flex">
-                        <div class="flex flex-1 items-end">
+                        <div class="flex flex-1 items-end md:mb-auto mb-3">
                             <div class="flex flex-col me-4">
                                 <div class="flex-1 md:text-left text-center">From</div>
                                 <div class="flex-1 text-xl font-semibold text-left">Madrid Spain 1</div>
@@ -228,8 +233,9 @@
                         </div>
                     </div>
 
-                    <div class="text-center flex md:flex-row flex-col border-2 m-5 p-5 items-center justify-center">
-                        <div class="md:w-1/4 w-4/4 md:border-r-2 bottom-0">
+                    <div
+                        class="text-center flex md:flex-row flex-col border-2 md:m-5 sm: mt-3  p-5 items-center justify-center">
+                        <div class="md:w-1/4 w-3/4 md:border-r-2 bottom-0 mb-3">
                             <div class="flex items-center justify-between">
                                 <div class="text-skyblue">Departure</div>
                                 <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
@@ -241,7 +247,7 @@
                             <div class="text-xs text-left">sunday</div>
                         </div>
 
-                        <div class="md:w-1/4 w-4/4 md:border-r-2 bottom-0 md:px-6 px-0">
+                        <div class="md:w-1/4 w-3/4 md:border-r-2 bottom-0 md:px-6 px-0 mb-3">
                             <div class="flex items-center justify-between">
                                 <div class="text-skyblue">Return</div>
                                 <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
@@ -252,29 +258,920 @@
                             </div>
                             <div class="text-xs text-left">sunday</div>
                         </div>
-                        <div class="md:w-1/4 w-4/4 md:ps-6 ps-0 flex flex-col md:items-start items-center"> 
+                        <div class="md:w-1/4 w-auto md:ps-6 ps-0 flex flex-col md:items-start items-center">
                             <div class="flex items-center justify-between">
                                 <div class="text-skyblue">PASSENGER & Cabin CLASS</div>
                                 <i class="fa-solid fa-angle-down ms-3 text-skyblue"></i>
                             </div>
-                            <div class="flex items-end">
+                            <div class="flex items-end w-full">
                                 <div class="font-bold text-xl me-1">14</div>
                                 <div class="text-sm">May’23</div>
                             </div>
-                            <div class="text-xs text-left">sunday</div>
+                            <div class="text-xs text-left w-full">sunday</div>
                         </div>
                         <div class="md:w-1/4 w-4/4">
-                            <button type="button" class="bg-blue py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">Search Flights</button>
+                            <button type="button"
+                                class="bg-blue py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">Search
+                                Flights</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- blog sec -->
+        <div style="width: calc(100% - 40px);" class=" bg-white lg:grid grid-cols-2 text-center container md:mx-auto mx-5 my-5 overflow-hidden">
+            <div class="lg:flex flex-col lg:mr-3">
+                <div class="lg:flex">
+                    <div class="relative lg:flex-1 rounded-lg overflow-hidden lg:mr-3 lg:mb-auto mb-3">
+                        <img class="w-full" src="../src/img/blog1.jpg" alt="">
+                        <div class="absolute inset-0 bg-black opacity-50"></div>
+                        <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
+                            <div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Tour </div>
+                            </div>
+                            <div class="">
+                                <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
+                                    5 days 4 night
+                                </div>
+
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <div class="text-white text-2xl font-semibold">from BDT</div>
+                                        <div class="text-white text-xs text-left">per person</div>
+                                    </div>
+
+                                    <div class="text-white text-3xl font-semibold">1,900</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative lg:flex-1 rounded-lg overflow-hidden lg:mr-3 mb-3 md:mb-auto">
+                        <img class="w-full" src="../src/img/blog1.jpg" alt="">
+                        <div class="absolute inset-0 bg-black opacity-50"></div>
+                        <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
+                            <div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Tour </div>
+                            </div>
+                            <div class="">
+                                <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
+                                    5 days 4 night
+                                </div>
+
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <div class="text-white text-2xl font-semibold">from BDT</div>
+                                        <div class="text-white text-xs text-left">per person</div>
+                                    </div>
+
+                                    <div class="text-white text-3xl font-semibold">1,900</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="relative lg:h-64 rounded-lg overflow-hidden lg:mr-3 lg:mt-3 mt-auto mb-3 md:mb-auto">
+                    <img class="object-cover h-full w-full" src="../src/img/blog1.jpg" alt="">
+                    <div class="absolute inset-0 bg-black opacity-50"></div>
+                    <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
+                        <div>
+                            <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                            <div class="text-white text-4xl font-semibold text-left">Tour </div>
+                        </div>
+                        <div class="w-56">
+                            <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
+                                5 days 4 night
+                            </div>
 
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="text-white text-2xl font-semibold">from BDT</div>
+                                    <div class="text-white text-xs text-left">per person</div>
+                                </div>
 
+                                <div class="text-white text-3xl font-semibold">1,900</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
+            <!--  -->
 
+            <div class="lg:flex flex-col">
+                <div class="lg:flex">
+                    <div class="relative lg:flex-1 rounded-lg overflow-hidden lg:mr-3 lg:mb-auto mb-3">
+                        <img class="w-full" src="../src/img/blog1.jpg" alt="">
+                        <div class="absolute inset-0 bg-black opacity-50"></div>
+                        <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
+                            <div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Tour </div>
+                            </div>
+                            <div class="">
+                                <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
+                                    5 days 4 night
+                                </div>
+
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <div class="text-white text-2xl font-semibold">from BDT</div>
+                                        <div class="text-white text-xs text-left">per person</div>
+                                    </div>
+
+                                    <div class="text-white text-3xl font-semibold">1,900</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative lg:flex-1 rounded-lg overflow-hidden lg:mr-3 mb-3 md:mb-auto">
+                        <img class="w-full" src="../src/img/blog1.jpg" alt="">
+                        <div class="absolute inset-0 bg-black opacity-50"></div>
+                        <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
+                            <div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Tour </div>
+                            </div>
+                            <div class="">
+                                <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
+                                    5 days 4 night
+                                </div>
+
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <div class="text-white text-2xl font-semibold">from BDT</div>
+                                        <div class="text-white text-xs text-left">per person</div>
+                                    </div>
+
+                                    <div class="text-white text-3xl font-semibold">1,900</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative lg:h-64 rounded-lg overflow-hidden lg:mr-3 lg:mt-3 mt-auto ">
+                    <img class="object-cover h-full w-full" src="../src/img/blog1.jpg" alt="">
+                    <div class="absolute inset-0 bg-black opacity-50"></div>
+                    <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
+                        <div>
+                            <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                            <div class="text-white text-4xl font-semibold text-left">Tour </div>
+                        </div>
+                        <div class="w-56">
+                            <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
+                                5 days 4 night
+                            </div>
+
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="text-white text-2xl font-semibold">from BDT</div>
+                                    <div class="text-white text-xs text-left">per person</div>
+                                </div>
+
+                                <div class="text-white text-3xl font-semibold">1,900</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!-- most popular package -->
+
+        <div class="container mx-auto">
+            <div class="text-center text-2xl text-skyblue mb-2">Choose your tour</div>
+            <div class="text-center text-3xl font-semibold mb-4">Most Popular Tour Packages</div>
+
+            <div class="flex w-full justify-center items-center mb-4 md:flex-row flex-col ">
+                <div class="w-36 text-center pb-1">Special Deals</div>
+                <div class="w-36 text-center border-b-4 pb-1 border-blue-500">Populer</div>
+                <div class="w-36 text-center pb-1">Recommendation</div>
+                <div class="w-36 text-center pb-1">Best Price</div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+                <!-- 1st card -->
+                <div class="rounded-md relative overflow-hidden">
+                    <span
+                        class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                    <img src="../src/img/blog-2.jpg" alt="">
+
+                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                        <div class="grid grid-cols-4">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-plane"></i>
+                                2 flight
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-bed"></i>
+                                1 hotel
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                0 Activity
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-car"></i>
+                                <span class="whitespace-nowrap">
+                                    2 Transfers
+                                </span>
+                            </div>
+                        </div>
+                        <div class="font-semibold mx-3 text-sm">
+                            Copenhagen to Helsinki – 7<br>
+                            Days
+                        </div>
+
+                        <div class="flex items-center mx-3 mt-2">
+                            <i class="fa-solid fa-location-dot mr-2"></i>
+                            Copenhagen, Denmark
+                        </div>
+
+                        <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                            <div class="col-span-1">
+                                <div class="flex items-center">
+                                    <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                        BDT 12,990
+                                    </div>
+                                    <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                        BDT 13,990
+                                    </div>
+                                </div>
+                                <div class="text-xs">Per person</div>
+                            </div>
+                            <div class="col-span-1 flex justify-end">
+                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- 2nd card -->
+                <div class="rounded-md relative overflow-hidden">
+                    <span
+                        class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                    <img src="../src/img/blog-2.jpg" alt="">
+
+                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                        <div class="grid grid-cols-4">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-plane"></i>
+                                2 flight
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-bed"></i>
+                                1 hotel
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                0 Activity
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-car"></i>
+                                <span class="whitespace-nowrap">
+                                    2 Transfers
+                                </span>
+                            </div>
+                        </div>
+                        <div class="font-semibold mx-3 text-sm">
+                            Copenhagen to Helsinki – 7<br>
+                            Days
+                        </div>
+
+                        <div class="flex items-center mx-3 mt-2">
+                            <i class="fa-solid fa-location-dot mr-2"></i>
+                            Copenhagen, Denmark
+                        </div>
+
+                        <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                            <div class="col-span-1">
+                                <div class="flex items-center">
+                                    <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                        BDT 12,990
+                                    </div>
+                                    <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                        BDT 13,990
+                                    </div>
+                                </div>
+                                <div class="text-xs">Per person</div>
+                            </div>
+                            <div class="col-span-1 flex justify-end">
+                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- 3rd card -->
+                <div class="rounded-md relative overflow-hidden">
+                    <span
+                        class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                    <img src="../src/img/blog-2.jpg" alt="">
+
+                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                        <div class="grid grid-cols-4">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-plane"></i>
+                                2 flight
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-bed"></i>
+                                1 hotel
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                0 Activity
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-car"></i>
+                                <span class="whitespace-nowrap">
+                                    2 Transfers
+                                </span>
+                            </div>
+                        </div>
+                        <div class="font-semibold mx-3 text-sm">
+                            Copenhagen to Helsinki – 7<br>
+                            Days
+                        </div>
+
+                        <div class="flex items-center mx-3 mt-2">
+                            <i class="fa-solid fa-location-dot mr-2"></i>
+                            Copenhagen, Denmark
+                        </div>
+
+                        <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                            <div class="col-span-1">
+                                <div class="flex items-center">
+                                    <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                        BDT 12,990
+                                    </div>
+                                    <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                        BDT 13,990
+                                    </div>
+                                </div>
+                                <div class="text-xs">Per person</div>
+                            </div>
+                            <div class="col-span-1 flex justify-end">
+                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- 4th card -->
+                <div class="rounded-md relative overflow-hidden">
+                    <span
+                        class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                    <img src="../src/img/blog-2.jpg" alt="">
+
+                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                        <div class="grid grid-cols-4">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-plane"></i>
+                                2 flight
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-bed"></i>
+                                1 hotel
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                0 Activity
+                            </div>
+                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                <i class="fa-solid fa-car"></i>
+                                <span class="whitespace-nowrap">
+                                    2 Transfers
+                                </span>
+                            </div>
+                        </div>
+                        <div class="font-semibold mx-3 text-sm">
+                            Copenhagen to Helsinki – 7<br>
+                            Days
+                        </div>
+
+                        <div class="flex items-center mx-3 mt-2">
+                            <i class="fa-solid fa-location-dot mr-2"></i>
+                            Copenhagen, Denmark
+                        </div>
+
+                        <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                            <div class="col-span-1">
+                                <div class="flex items-center">
+                                    <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                        BDT 12,990
+                                    </div>
+                                    <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                        BDT 13,990
+                                    </div>
+                                </div>
+                                <div class="text-xs">Per person</div>
+                            </div>
+                            <div class="col-span-1 flex justify-end">
+                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- counter section -->
+
+        <div class="relative my-4 flex items-center justify-center">
+            <img src="../src/img/blog-2.jpg" class="md:h-72 object-cover object-center w-full" alt="">
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 absolute md:justify-around items-center w-full h-full">
+
+                <div>
+                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                    </div>
+                    <div class="text-xl font-semibold mt-4 text-white text-center">300</div>
+                    <div class="text-xl font-semibold mt-1 text-white text-center">Flight Booking</div>
+                </div>
+
+                <div>
+                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                    </div>
+                    <div class="text-xl font-semibold mt-4 text-white text-center">30K</div>
+                    <div class="text-xl font-semibold mt-1 text-white text-center">Total Users</div>
+                </div>
+
+                <div>
+                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                    </div>
+                    <div class="text-xl font-semibold mt-4 text-white text-center">279</div>
+                    <div class="text-xl font-semibold mt-1 text-white text-center">Hotel Booking</div>
+                </div>
+
+                <div>
+                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                    </div>
+                    <div class="text-xl font-semibold mt-4 text-white text-center">300</div>
+                    <div class="text-xl font-semibold mt-1 text-white text-center">Amazing Tour</div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ******* -->
+        <div class="grid lg:grid-cols-2 md:mx-52 mx-5 my-14 shadow-lg">
+            <div class="1">
+                <img src="../src/img/blog-4.jpg" alt="">
+            </div>
+            <div class="p-10 flex flex-col justify-center bg-white">
+                <span class=" text-xs text-skyblue font-semibold mb-3">GET FREE</span>
+                <span class=" text-3xl font-bold ">Now Apply For Visa</span>
+                <span class=" text-sm mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </span>
+                <span>
+                    <button class="bg-skyblue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3">
+                        View more <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </span>
+
+            </div>
+        </div>
+
+        <!-- ********** -->
+
+        <div class="float-left w-full relative" style="height: 650px;">
+            <img class="mb-16 inline-block -translate-y-44 absolute -z-10 w-full h-full" src="../src/img/blog-2.jpg"
+                alt="">
+
+            <div class="grid gap-3 md:grid-cols-2 absolute top-0 md:mx-36 mx-5">
+                <div class="flex bg-white rounded-sm overflow-hidden">
+                    <div class="flex-1 object-cover">
+                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                    </div>
+
+                    <div class="flex-1 p-5 justify-center flex flex-col">
+                        <div class="text-xl text-skyblue mb-3">Canada</div>
+                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                        <div>
+                            <button class="btn font-semibold">Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex bg-white">
+                    <div class="flex-1">
+                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                    </div>
+
+                    <div class="flex-1 p-5 justify-center flex flex-col">
+                        <div class="text-xl text-skyblue mb-3">Canada</div>
+                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                        <div>
+                            <button class="btn font-semibold">Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex bg-white">
+                    <div class="flex-1">
+                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                    </div>
+
+                    <div class="flex-1 p-5 justify-center flex flex-col">
+                        <div class="text-xl text-skyblue mb-3">Canada</div>
+                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                        <div>
+                            <button class="btn font-semibold">Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex bg-white">
+                    <div class="flex-1">
+                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                    </div>
+
+                    <div class="flex-1 p-5 justify-center flex flex-col">
+                        <div class="text-xl text-skyblue mb-3">Canada</div>
+                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                        <div>
+                            <button class="btn font-semibold">Read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="-translate-y-40">
+            <!-- most popular package 2 -->
+
+            <div class="container mx-auto mb-5">
+                <div class="text-center text-2xl text-skyblue mb-2">Choose your hotel</div>
+                <div class="text-center text-3xl font-semibold mb-4">Most Popular Tour Packages</div>
+
+           
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+                    <!-- 1st card -->
+                    <div class="rounded-md relative overflow-hidden">
+                        <span
+                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <img src="../src/img/blog-2.jpg" alt="">
+
+                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                            <div class="grid grid-cols-4">
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-plane"></i>
+                                    2 flight
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-bed"></i>
+                                    1 hotel
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-person-hiking"></i>
+                                    0 Activity
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-car"></i>
+                                    <span class="whitespace-nowrap">
+                                        2 Transfers
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="font-semibold mx-3 text-sm">
+                                Copenhagen to Helsinki – 7<br>
+                                Days
+                            </div>
+
+                            <div class="flex items-center mx-3 mt-2">
+                                <i class="fa-solid fa-location-dot mr-2"></i>
+                                Copenhagen, Denmark
+                            </div>
+
+                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                                <div class="col-span-1">
+                                    <div class="flex items-center">
+                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                            BDT 12,990
+                                        </div>
+                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                            BDT 13,990
+                                        </div>
+                                    </div>
+                                    <div class="text-xs">Per person</div>
+                                </div>
+                                <div class="col-span-1 flex justify-end">
+                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- 2nd card -->
+                    <div class="rounded-md relative overflow-hidden">
+                        <span
+                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <img src="../src/img/blog-2.jpg" alt="">
+
+                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                            <div class="grid grid-cols-4">
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-plane"></i>
+                                    2 flight
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-bed"></i>
+                                    1 hotel
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-person-hiking"></i>
+                                    0 Activity
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-car"></i>
+                                    <span class="whitespace-nowrap">
+                                        2 Transfers
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="font-semibold mx-3 text-sm">
+                                Copenhagen to Helsinki – 7<br>
+                                Days
+                            </div>
+
+                            <div class="flex items-center mx-3 mt-2">
+                                <i class="fa-solid fa-location-dot mr-2"></i>
+                                Copenhagen, Denmark
+                            </div>
+
+                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                                <div class="col-span-1">
+                                    <div class="flex items-center">
+                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                            BDT 12,990
+                                        </div>
+                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                            BDT 13,990
+                                        </div>
+                                    </div>
+                                    <div class="text-xs">Per person</div>
+                                </div>
+                                <div class="col-span-1 flex justify-end">
+                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- 3rd card -->
+                    <div class="rounded-md relative overflow-hidden">
+                        <span
+                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <img src="../src/img/blog-2.jpg" alt="">
+
+                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                            <div class="grid grid-cols-4">
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-plane"></i>
+                                    2 flight
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-bed"></i>
+                                    1 hotel
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-person-hiking"></i>
+                                    0 Activity
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-car"></i>
+                                    <span class="whitespace-nowrap">
+                                        2 Transfers
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="font-semibold mx-3 text-sm">
+                                Copenhagen to Helsinki – 7<br>
+                                Days
+                            </div>
+
+                            <div class="flex items-center mx-3 mt-2">
+                                <i class="fa-solid fa-location-dot mr-2"></i>
+                                Copenhagen, Denmark
+                            </div>
+
+                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                                <div class="col-span-1">
+                                    <div class="flex items-center">
+                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                            BDT 12,990
+                                        </div>
+                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                            BDT 13,990
+                                        </div>
+                                    </div>
+                                    <div class="text-xs">Per person</div>
+                                </div>
+                                <div class="col-span-1 flex justify-end">
+                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- 4th card -->
+                    <div class="rounded-md relative overflow-hidden">
+                        <span
+                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <img src="../src/img/blog-2.jpg" alt="">
+
+                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                            <div class="grid grid-cols-4">
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-plane"></i>
+                                    2 flight
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-bed"></i>
+                                    1 hotel
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-person-hiking"></i>
+                                    0 Activity
+                                </div>
+                                <div class="flex flex-col justify-center items-center p-2 text-sm">
+                                    <i class="fa-solid fa-car"></i>
+                                    <span class="whitespace-nowrap">
+                                        2 Transfers
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="font-semibold mx-3 text-sm">
+                                Copenhagen to Helsinki – 7<br>
+                                Days
+                            </div>
+
+                            <div class="flex items-center mx-3 mt-2">
+                                <i class="fa-solid fa-location-dot mr-2"></i>
+                                Copenhagen, Denmark
+                            </div>
+
+                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                                <div class="col-span-1">
+                                    <div class="flex items-center">
+                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                            BDT 12,990
+                                        </div>
+                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                            BDT 13,990
+                                        </div>
+                                    </div>
+                                    <div class="text-xs">Per person</div>
+                                </div>
+                                <div class="col-span-1 flex justify-end">
+                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- most popular package 3 -->
+
+            <div class="container mx-auto">
+                <div class="text-center text-2xl text-skyblue mb-2">meet the team</div>
+                <div class="text-center text-3xl font-semibold mb-4">Our Dedicated Team</div>
+
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+                    <!-- 1st card -->
+                    <div class="rounded-md relative overflow-hidden">
+
+                        <img src="../src/img/blog1.jpg" alt="">
+
+                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                            <div class="font-semibol text-xl font-semibold mb-2">
+                                james Logan
+                            </div>
+                            <div class="font-semibold text-sm">
+                                CEO / DRIECTOR
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2nd card -->
+                    <div class="rounded-md relative overflow-hidden">
+
+                        <img src="../src/img/blog1.jpg" alt="">
+
+                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                            <div class="font-semibol text-xl font-semibold mb-2">
+                                james Logan
+                            </div>
+                            <div class="font-semibold text-sm">
+                                CEO / DRIECTOR
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3rd card -->
+                    <div class="rounded-md relative overflow-hidden">
+
+                        <img src="../src/img/blog1.jpg" alt="">
+
+                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                            <div class="font-semibol text-xl font-semibold mb-2">
+                                james Logan
+                            </div>
+                            <div class="font-semibold text-sm">
+                                CEO / DRIECTOR
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4th card -->
+                    <div class="rounded-md relative overflow-hidden">
+
+                        <img src="../src/img/blog1.jpg" alt="">
+
+                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                            <div class="font-semibol text-xl font-semibold mb-2">
+                                james Logan
+                            </div>
+                            <div class="font-semibold text-sm">
+                                CEO / DRIECTOR
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 
 
