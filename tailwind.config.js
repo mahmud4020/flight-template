@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     colors: {
       transparent: "transparent",
+      green: "#047857",
       current: "currentColor",
       white: "#ffffff",
       offwhite: "#F5F5F5",

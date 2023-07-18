@@ -14,274 +14,281 @@
 </head>
 
 <body>
-    <div class="w-full overflow-hidden">
-        <!-- top header -->
-        <div class="row flex flex-wrap md:justify-between justify-center bg-darkblue text-white md:px-16 py-3 px-4">
-            <div class="col-6 flex flex-wrap md:justify-start justify-center">
-                <div class="me-7 cursor-pointer">
-                    <i class="fa-solid fa-house me-1"></i>
-                    <span>+880-123-4567-787</span>
+
+    <!-- top header -->
+    <div class=" row flex flex-wrap md:justify-between justify-center bg-darkblue text-white md:px-16 py-3 px-4">
+        <div class="col-6 flex flex-wrap md:justify-start justify-center">
+            <div class="me-7 cursor-pointer">
+                <i class="fa-solid fa-house me-1"></i>
+                <span>+880-123-4567-787</span>
+            </div>
+            <div class="cursor-pointer">
+                <i class="fa-solid fa-envelope me-1"></i>
+                <span> demo@example.com</span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div>
+                <span>
+                    <i class="fa-brands fa-twitter mr-3 text-xl cursor-pointer"></i>
+                </span>
+                <span>
+                    <i class="fa-brands fa-facebook-f mr-3 text-xl cursor-pointer"></i>
+                </span>
+                <span>
+                    <i class="fa-brands fa-linkedin-in mr-3 text-xl cursor-pointer"></i>
+                </span>
+                <span>
+                    <i class="fa-brands fa-whatsapp mr-3 text-xl cursor-pointer"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- nev bar -->
+    <nav class="md:bg-white text-black shadow-sm bg-skyblue sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+            <div class="flex items-center md:justify-center justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-black font-bold text-xl lg:absolute left-16">Logo</a>
+                    <div class="hidden md:block">
+                        <ul class="ml-10 flex items-baseline space-x-4">
+                            <li class="relative">
+                                <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                    <i class="fas fa-home  mb-2"></i>
+                                    Home
+                                </a>
+                                <div
+                                    class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                </div>
+                            </li>
+                            <li class="relative">
+                                <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                    <i class="fas fa-plane  mb-2"></i>
+                                    Flights
+                                </a>
+                                <div
+                                    class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                </div>
+                            </li>
+
+                            <li class="relative">
+                                <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                    <i class="fa-solid fa-bed  mb-2"></i>
+                                    Hotels
+                                </a>
+                                <div
+                                    class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                </div>
+                            </li>
+
+                            <li class="relative">
+                                <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                    <i class="fa-solid fa-mug-hot  mb-2"></i>
+                                    Holiday
+                                </a>
+                                <div
+                                    class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                </div>
+                            </li>
+
+                            <li class="relative">
+                                <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                    <i class="fa-sharp fa-solid fa-kaaba  mb-2"></i>
+                                    Umrah
+                                </a>
+                                <div
+                                    class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                </div>
+                            </li>
+
+                            <li class="relative">
+                                <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                    <i class="fa-sharp fa-solid fa-passport  mb-2"></i>
+                                    Visa
+                                </a>
+                                <div
+                                    class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                </div>
+                            </li>
+
+                            <li class="relative">
+                                <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
+                                    <i class="fa-solid fa-gears  mb-2"></i>
+                                    activities
+                                </a>
+                                <div
+                                    class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
+                                </div>
+                            </li>
+
+                            <li class="relative">
+                                <a href="#" data-dropdown="my-dropdown"
+                                    class="hover:text-tahiti-600 relative items-center flex-col ms-4 flex"
+                                    id="home-link">
+
+                                    <i class="fa-solid fa-hashtag mb-2"></i>
+                                    <span class="flex justify-center items-center">
+                                        more
+                                        <i class="fa-solid fa-angle-down ms-2"></i>
+                                    </span>
+
+
+                                    <div id="my-dropdown"
+                                        class="absolute left-0 mt-2 w-40 text-gray-800 rounded-lg shadow-lg bg-offwhite z-50">
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 1</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 2</a>
+                                        <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 3</a>
+                                    </div>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
                 </div>
-                <div class="cursor-pointer">
-                    <i class="fa-solid fa-envelope me-1"></i>
-                    <span> demo@example.com</span>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" type="button" class="text-gray-300 focus:outline-none">
+                        <i class="fas fa-bars text-black"></i>
+                    </button>
                 </div>
             </div>
-            <div class="col-6">
-                <div>
-                    <span>
-                        <i class="fa-brands fa-twitter mr-3 text-xl cursor-pointer"></i>
-                    </span>
-                    <span>
-                        <i class="fa-brands fa-facebook-f mr-3 text-xl cursor-pointer"></i>
-                    </span>
-                    <span>
-                        <i class="fa-brands fa-linkedin-in mr-3 text-xl cursor-pointer"></i>
-                    </span>
-                    <span>
-                        <i class="fa-brands fa-whatsapp mr-3 text-xl cursor-pointer"></i>
-                    </span>
+            <div id="mobile-menu" class="hidden md:hidden">
+                <ul class="mt-2 pb-3">
+                    <li class="relative">
+                        <a href="#"
+                            class="hover:text-tahiti-600 block pl-3 pr-4 py-2 border-l-4 border-transparent hover:border-gray-300">
+                            <i class="fas fa-home  mb-2"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="relative">
+                        <a href="#"
+                            class="hover:text-tahiti-600 block pl-3 pr-4 py-2 border-l-4 border-transparent hover:border-gray-300">
+                            <i class="fas fa-plane  mb-2"></i>
+                            Flights
+                        </a>
+                    </li>
+                    <!-- Add other menu items with icons -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+
+    <div class="relative ">
+        <!-- <img class="h-96 w-full object-cover" src="../src/img/banner.jpg" alt=""> -->
+        <div class="w-full">
+            <div
+                class="bg-[url('https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg')] bg-center bg-cover md:h-96 h-auto py-4 flex items-center">
+                <div class="w-full h-fit flex justify-center flex-col items-center">
+                    <div class="w-full flex justify-center md:flex-row flex-col items-center">
+                        <span
+                            class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
+                                class="fas fa-plane me-2"></i> flight</span>
+                        <span
+                            class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white">
+                            <i class="fa-solid fa-bed  me-2"></i> hotel</span>
+                        <span
+                            class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
+                                class="fa-solid fa-mug-hot  me-2"></i> holiday</span>
+                        <span
+                            class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
+                                class="fa-sharp fa-solid fa-passport  me-2"></i> visa</span>
+                    </div>
+
+                    <div class="row flex-col  flex w-5/6 mt-5 rounded-sm bg-white px-8 py-4">
+                        <div class="w-full md:flex-row flex-col flex">
+                            <div class="flex flex-1 items-end md:mb-auto mb-3">
+                                <div class="flex flex-col me-4">
+                                    <div class="flex-1 md:text-left text-center">From</div>
+                                    <div class="flex-1 text-xl font-semibold md:text-left text-center">Madrid Spain 1
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-repeat"></i></div>
+                                <div class="flex flex-col ms-4">
+
+                                    <div class="flex-1 md:text-left text-center">To</div>
+                                    <div class="flex-1 text-xl font-semibold md:text-left text-center">Madrid Spain 2
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="flex-1 flex md:justify-end justify-center">
+                                <span class="flex items-center me-2">
+                                    <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
+                                    <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">One
+                                        Way</label>
+                                </span>
+                                <span class="flex items-center me-2">
+                                    <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
+                                    <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">Round
+                                        Trip</label>
+                                </span>
+                                <span class="flex items-center">
+                                    <input id="inline-radio" type="radio" value="" name="inline-radio-group"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
+                                    <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">Multi
+                                        City</label>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div
+                            class="text-center flex md:flex-row flex-col border border-sky-200 md:m-5 sm: mt-3  p-3 items-center justify-center">
+                            <div class="md:w-1/4 w-3/4 md:border-r border-sky-200 bottom-0 mb-3">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-skyblue">Departure</div>
+                                    <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
+                                </div>
+                                <div class="flex items-end">
+                                    <div class="font-bold text-xl me-1">14</div>
+                                    <div class="text-sm">May’23</div>
+                                </div>
+                                <div class="text-xs text-left">sunday</div>
+                            </div>
+
+                            <div class="md:w-1/4 w-3/4 md:border-r border-sky-200 bottom-0 md:px-6 px-0 mb-3">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-skyblue">Return</div>
+                                    <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
+                                </div>
+                                <div class="flex items-end">
+                                    <div class="font-bold text-xl me-1">14</div>
+                                    <div class="text-sm">May’23</div>
+                                </div>
+                                <div class="text-xs text-left">sunday</div>
+                            </div>
+                            <div class="md:w-1/4 w-auto md:ps-6 ps-0 flex flex-col md:items-start items-center">
+                                <div class="flex items-center justify-between">
+                                    <div class="text-skyblue">PASSENGER & Cabin CLASS</div>
+                                    <i class="fa-solid fa-angle-down ms-3 text-skyblue"></i>
+                                </div>
+                                <div class="flex items-end w-full">
+                                    <div class="font-bold text-xl me-1">14</div>
+                                    <div class="text-sm">May’23</div>
+                                </div>
+                                <div class="text-xs text-left w-full">sunday</div>
+                            </div>
+                            <div class="md:w-1/4 w-4/4 text-right">
+                                <button type="button"
+                                    class="bg-cyan-600 hover:bg-cyan-800 text-white py-2.5 px-5 md:mt-auto mt-5 text-sm font-medium text-gray-900 rounded-lg border border-gray-200 transition-all">Search
+                                    Flights</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- nev bar -->
-
-        <nav class="md:bg-white text-black shadow-sm bg-skyblue">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-                <div class="flex items-center md:justify-center justify-between h-16">
-                    <div class="flex items-center">
-                        <a href="#" class="text-black font-bold text-xl lg:absolute left-16">Logo</a>
-                        <div class="hidden md:block">
-                            <ul class="ml-10 flex items-baseline space-x-4">
-                                <li class="relative">
-                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
-                                        <i class="fas fa-home  mb-2"></i>
-                                        Home
-                                    </a>
-                                    <div
-                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
-                                    </div>
-                                </li>
-                                <li class="relative">
-                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
-                                        <i class="fas fa-plane  mb-2"></i>
-                                        Flights
-                                    </a>
-                                    <div
-                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
-                                    </div>
-                                </li>
-
-                                <li class="relative">
-                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
-                                        <i class="fa-solid fa-bed  mb-2"></i>
-                                        Hotels
-                                    </a>
-                                    <div
-                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
-                                    </div>
-                                </li>
-
-                                <li class="relative">
-                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
-                                        <i class="fa-solid fa-mug-hot  mb-2"></i>
-                                        Holiday
-                                    </a>
-                                    <div
-                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
-                                    </div>
-                                </li>
-
-                                <li class="relative">
-                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
-                                        <i class="fa-sharp fa-solid fa-kaaba  mb-2"></i>
-                                        Umrah
-                                    </a>
-                                    <div
-                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
-                                    </div>
-                                </li>
-
-                                <li class="relative">
-                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
-                                        <i class="fa-sharp fa-solid fa-passport  mb-2"></i>
-                                        Visa
-                                    </a>
-                                    <div
-                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
-                                    </div>
-                                </li>
-
-                                <li class="relative">
-                                    <a href="#" class="hover:text-tahiti-600 flex items-center flex-col ms-4">
-                                        <i class="fa-solid fa-gears  mb-2"></i>
-                                        activities
-                                    </a>
-                                    <div
-                                        class="absolute w-full border-b-2 border-transparent bottom-0 transition-all duration-300">
-                                    </div>
-                                </li>
-
-                                <li class="relative">
-                                    <a href="#" data-dropdown="my-dropdown"
-                                        class="hover:text-tahiti-600 relative items-center flex-col ms-4 flex"
-                                        id="home-link">
-
-                                        <i class="fa-solid fa-hashtag mb-2"></i>
-                                        <span class="flex justify-center items-center">
-                                            more
-                                            <i class="fa-solid fa-angle-down ms-2"></i>
-                                        </span>
+    </div>
 
 
-                                        <div id="my-dropdown"
-                                            class="absolute left-0 mt-2 w-40 text-gray-800 rounded-lg shadow-lg bg-offwhite z-50">
-                                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 1</a>
-                                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 2</a>
-                                            <a href="#" class="block px-4 py-2 hover:bg-gray-200">Submenu Item 3</a>
-                                        </div>
-                                    </a>
-                                </li>
-
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="md:hidden">
-                        <button id="mobile-menu-button" type="button" class="text-gray-300 focus:outline-none">
-                            <i class="fas fa-bars text-black"></i>
-                        </button>
-                    </div>
-                </div>
-                <div id="mobile-menu" class="hidden md:hidden">
-                    <ul class="mt-2 pb-3">
-                        <li class="relative">
-                            <a href="#"
-                                class="hover:text-tahiti-600 block pl-3 pr-4 py-2 border-l-4 border-transparent hover:border-gray-300">
-                                <i class="fas fa-home  mb-2"></i>
-                                Home
-                            </a>
-                        </li>
-                        <li class="relative">
-                            <a href="#"
-                                class="hover:text-tahiti-600 block pl-3 pr-4 py-2 border-l-4 border-transparent hover:border-gray-300">
-                                <i class="fas fa-plane  mb-2"></i>
-                                Flights
-                            </a>
-                        </li>
-                        <!-- Add other menu items with icons -->
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- banner -->
-
-        <div class="relative ">
-            <img class="h-96 w-full object-cover" src="../src/img/banner.jpg" alt="">
-            <div class="md:absolute md:mt-auto -mt-80 top-8 w-full h-fit flex justify-center flex-col items-center">
-                <div class="w-full flex justify-center md:flex-row flex-col items-center">
-                    <span
-                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
-                            class="fas fa-plane me-2"></i> flight</span>
-                    <span
-                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white">
-                        <i class="fa-solid fa-bed  me-2"></i> hotel</span>
-                    <span
-                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
-                            class="fa-solid fa-mug-hot  me-2"></i> holiday</span>
-                    <span
-                        class="bg-white p-3 rounded-sm md:mr-4 mx:auto md:mb-auto mb-2 md:w-32 w-72 text-center cursor-pointer hover:bg-skyblue hover:text-white"><i
-                            class="fa-sharp fa-solid fa-passport  me-2"></i> visa</span>
-                </div>
-
-                <div class="row flex-col  flex w-5/6 mt-5 rounded-sm bg-white p-3">
-                    <div class="w-full md:flex-row flex-col flex">
-                        <div class="flex flex-1 items-end md:mb-auto mb-3">
-                            <div class="flex flex-col me-4">
-                                <div class="flex-1 md:text-left text-center">From</div>
-                                <div class="flex-1 text-xl font-semibold text-left">Madrid Spain 1</div>
-                            </div>
-                            <div><i class="fa-solid fa-repeat"></i></div>
-                            <div class="flex flex-col ms-4">
-
-                                <div class="flex-1 md:text-left text-center">To</div>
-                                <div class="flex-1 text-xl font-semibold text-left">Madrid Spain 2</div>
-                            </div>
-                        </div>
-
-
-                        <div class="flex-1 flex md:justify-end justify-center">
-                            <span class="flex items-center me-2">
-                                <input id="inline-radio" type="radio" value="" name="inline-radio-group"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
-                                <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">One Way</label>
-                            </span>
-                            <span class="flex items-center me-2">
-                                <input id="inline-radio" type="radio" value="" name="inline-radio-group"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
-                                <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">Round
-                                    Trip</label>
-                            </span>
-                            <span class="flex items-center">
-                                <input id="inline-radio" type="radio" value="" name="inline-radio-group"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 ">
-                                <label for="inline-radio" class="ml-2 text-sm font-medium text-black ">Multi
-                                    City</label>
-                            </span>
-                        </div>
-                    </div>
-
-                    <div
-                        class="text-center flex md:flex-row flex-col border-2 md:m-5 sm: mt-3  p-5 items-center justify-center">
-                        <div class="md:w-1/4 w-3/4 md:border-r-2 bottom-0 mb-3">
-                            <div class="flex items-center justify-between">
-                                <div class="text-skyblue">Departure</div>
-                                <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
-                            </div>
-                            <div class="flex items-end">
-                                <div class="font-bold text-xl me-1">14</div>
-                                <div class="text-sm">May’23</div>
-                            </div>
-                            <div class="text-xs text-left">sunday</div>
-                        </div>
-
-                        <div class="md:w-1/4 w-3/4 md:border-r-2 bottom-0 md:px-6 px-0 mb-3">
-                            <div class="flex items-center justify-between">
-                                <div class="text-skyblue">Return</div>
-                                <i class="fa-solid fa-angle-down me-2 text-skyblue"></i>
-                            </div>
-                            <div class="flex items-end">
-                                <div class="font-bold text-xl me-1">14</div>
-                                <div class="text-sm">May’23</div>
-                            </div>
-                            <div class="text-xs text-left">sunday</div>
-                        </div>
-                        <div class="md:w-1/4 w-auto md:ps-6 ps-0 flex flex-col md:items-start items-center">
-                            <div class="flex items-center justify-between">
-                                <div class="text-skyblue">PASSENGER & Cabin CLASS</div>
-                                <i class="fa-solid fa-angle-down ms-3 text-skyblue"></i>
-                            </div>
-                            <div class="flex items-end w-full">
-                                <div class="font-bold text-xl me-1">14</div>
-                                <div class="text-sm">May’23</div>
-                            </div>
-                            <div class="text-xs text-left w-full">sunday</div>
-                        </div>
-                        <div class="md:w-1/4 w-4/4">
-                            <button type="button"
-                                class="bg-blue py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700">Search
-                                Flights</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- blog sec -->
-        <div style="width: calc(100% - 40px);" class=" bg-white lg:grid grid-cols-2 text-center container md:mx-auto mx-5 my-5 overflow-hidden">
+    <!-- blog sec -->
+    <div class="w-full flex justify-center">
+        <div class=" bg-white lg:grid grid-cols-2 text-center container md:mx-24 mx-5 my-5 overflow-hidden">
             <div class="lg:flex flex-col lg:mr-3">
                 <div class="lg:flex">
                     <div class="relative lg:flex-1 rounded-lg overflow-hidden lg:mr-3 lg:mb-auto mb-3">
@@ -289,7 +296,7 @@
                         <div class="absolute inset-0 bg-black opacity-50"></div>
                         <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
                             <div>
-                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey 1 </div>
                                 <div class="text-white text-4xl font-semibold text-left">Tour </div>
                             </div>
                             <div class="">
@@ -314,7 +321,7 @@
                         <div class="absolute inset-0 bg-black opacity-50"></div>
                         <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
                             <div>
-                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey 2 </div>
                                 <div class="text-white text-4xl font-semibold text-left">Tour </div>
                             </div>
                             <div class="">
@@ -340,7 +347,7 @@
                     <div class="absolute inset-0 bg-black opacity-50"></div>
                     <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
                         <div>
-                            <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                            <div class="text-white text-4xl font-semibold text-left">Turkey 3 </div>
                             <div class="text-white text-4xl font-semibold text-left">Tour </div>
                         </div>
                         <div class="w-56">
@@ -364,13 +371,37 @@
             <!--  -->
 
             <div class="lg:flex flex-col">
+                <div class="relative lg:h-64 rounded-lg overflow-hidden lg:mr-3 lg:mb-3 mb-auto ">
+                    <img class="object-cover h-full w-full" src="../src/img/blog1.jpg" alt="">
+                    <div class="absolute inset-0 bg-black opacity-50"></div>
+                    <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
+                        <div>
+                            <div class="text-white text-4xl font-semibold text-left">Turkey 6</div>
+                            <div class="text-white text-4xl font-semibold text-left">Tour </div>
+                        </div>
+                        <div class="w-56">
+                            <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
+                                5 days 4 night
+                            </div>
+
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <div class="text-white text-2xl font-semibold">from BDT</div>
+                                    <div class="text-white text-xs text-left">per person</div>
+                                </div>
+
+                                <div class="text-white text-3xl font-semibold">1,900</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="lg:flex">
                     <div class="relative lg:flex-1 rounded-lg overflow-hidden lg:mr-3 lg:mb-auto mb-3">
                         <img class="w-full" src="../src/img/blog1.jpg" alt="">
                         <div class="absolute inset-0 bg-black opacity-50"></div>
                         <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
                             <div>
-                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey 4</div>
                                 <div class="text-white text-4xl font-semibold text-left">Tour </div>
                             </div>
                             <div class="">
@@ -395,7 +426,7 @@
                         <div class="absolute inset-0 bg-black opacity-50"></div>
                         <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
                             <div>
-                                <div class="text-white text-4xl font-semibold text-left">Turkey </div>
+                                <div class="text-white text-4xl font-semibold text-left">Turkey 5</div>
                                 <div class="text-white text-4xl font-semibold text-left">Tour </div>
                             </div>
                             <div class="">
@@ -416,47 +447,427 @@
                     </div>
                 </div>
 
-                <div class="relative lg:h-64 rounded-lg overflow-hidden lg:mr-3 lg:mt-3 mt-auto ">
-                    <img class="object-cover h-full w-full" src="../src/img/blog1.jpg" alt="">
-                    <div class="absolute inset-0 bg-black opacity-50"></div>
-                    <div class="absolute top-0 left-0 p-6  flex flex-col h-full w-full justify-between">
-                        <div>
-                            <div class="text-white text-4xl font-semibold text-left">Turkey </div>
-                            <div class="text-white text-4xl font-semibold text-left">Tour </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- most popular package -->
+
+    <div class="md:mx-24">
+        <div class="text-center text-lg font-semibold text-skyblue mb-2">Choose your tour</div>
+        <div class="text-center text-3xl font-semibold mb-4">Most Popular Tour Packages</div>
+
+        <div class="flex w-full justify-center items-center mb-4 md:flex-row flex-col ">
+            <div class="w-36 text-center pb-1">Special Deals</div>
+            <div class="w-36 text-center border-b-2 pb-1 border-sky-500">Populer</div>
+            <div class="w-36 text-center pb-1">Recommendation</div>
+            <div class="w-36 text-center pb-1">Best Price</div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-3 lg:mx-auto mx-5">
+            <!-- 1st card -->
+            <div class="rounded-md relative overflow-hidden">
+                <span
+                    class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+                <img src="../src/img/blog-2.jpg" alt="">
+
+                <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
+                    <div class="grid grid-cols-4">
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-plane"></i>
+                            2 flight
                         </div>
-                        <div class="w-56">
-                            <div class="text-white text-2xl font-semibold border-b-4 pb-2 text-left">
-                                5 days 4 night
-                            </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-bed"></i>
+                            1 hotel
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            0 Activity
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="whitespace-nowrap">
+                                2 Transfers
+                            </span>
+                        </div>
+                    </div>
+                    <div class="font-semibold mx-3 text-sm">
+                        Copenhagen to Helsinki – 7<br>
+                        Days
+                    </div>
 
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <div class="text-white text-2xl font-semibold">from BDT</div>
-                                    <div class="text-white text-xs text-left">per person</div>
+                    <div class="flex items-center mx-3 mt-2">
+                        <i class="fa-solid fa-location-dot mr-2"></i>
+                        Copenhagen, Denmark
+                    </div>
+
+                    <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                        <div class="col-span-1">
+                            <div class="flex items-center">
+                                <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                    BDT 12,990
                                 </div>
-
-                                <div class="text-white text-3xl font-semibold">1,900</div>
+                                <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                    BDT 13,990
+                                </div>
                             </div>
+                            <div class="text-xs">Per person</div>
+                        </div>
+                        <div class="col-span-1 flex justify-end">
+                            <button class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                type="button" style="height: 30px; line-height: 0;">Book now</button>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <!-- 2nd card -->
+            <div class="rounded-md relative overflow-hidden">
+                <span
+                    class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+                <img src="../src/img/blog-2.jpg" alt="">
+
+                <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
+                    <div class="grid grid-cols-4">
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-plane"></i>
+                            2 flight
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-bed"></i>
+                            1 hotel
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            0 Activity
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="whitespace-nowrap">
+                                2 Transfers
+                            </span>
+                        </div>
+                    </div>
+                    <div class="font-semibold mx-3 text-sm">
+                        Copenhagen to Helsinki – 7<br>
+                        Days
+                    </div>
+
+                    <div class="flex items-center mx-3 mt-2">
+                        <i class="fa-solid fa-location-dot mr-2"></i>
+                        Copenhagen, Denmark
+                    </div>
+
+                    <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                        <div class="col-span-1">
+                            <div class="flex items-center">
+                                <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                    BDT 12,990
+                                </div>
+                                <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                    BDT 13,990
+                                </div>
+                            </div>
+                            <div class="text-xs">Per person</div>
+                        </div>
+                        <div class="col-span-1 flex justify-end">
+                            <button class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                type="button" style="height: 30px; line-height: 0;">Book now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="rounded-md relative overflow-hidden">
+                <span
+                    class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+                <img src="../src/img/blog-2.jpg" alt="">
+
+                <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
+                    <div class="grid grid-cols-4">
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-plane"></i>
+                            2 flight
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-bed"></i>
+                            1 hotel
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            0 Activity
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="whitespace-nowrap">
+                                2 Transfers
+                            </span>
+                        </div>
+                    </div>
+                    <div class="font-semibold mx-3 text-sm">
+                        Copenhagen to Helsinki – 7<br>
+                        Days
+                    </div>
+
+                    <div class="flex items-center mx-3 mt-2">
+                        <i class="fa-solid fa-location-dot mr-2"></i>
+                        Copenhagen, Denmark
+                    </div>
+
+                    <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                        <div class="col-span-1">
+                            <div class="flex items-center">
+                                <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                    BDT 12,990
+                                </div>
+                                <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                    BDT 13,990
+                                </div>
+                            </div>
+                            <div class="text-xs">Per person</div>
+                        </div>
+                        <div class="col-span-1 flex justify-end">
+                            <button class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                type="button" style="height: 30px; line-height: 0;">Book now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4th card -->
+            <div class="rounded-md relative overflow-hidden">
+                <span
+                    class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+                <img src="../src/img/blog-2.jpg" alt="">
+
+                <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
+                    <div class="grid grid-cols-4">
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-plane"></i>
+                            2 flight
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-bed"></i>
+                            1 hotel
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            0 Activity
+                        </div>
+                        <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="whitespace-nowrap">
+                                2 Transfers
+                            </span>
+                        </div>
+                    </div>
+                    <div class="font-semibold mx-3 text-sm">
+                        Copenhagen to Helsinki – 7<br>
+                        Days
+                    </div>
+
+                    <div class="flex items-center mx-3 mt-2">
+                        <i class="fa-solid fa-location-dot mr-2"></i>
+                        Copenhagen, Denmark
+                    </div>
+
+                    <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
+                        <div class="col-span-1">
+                            <div class="flex items-center">
+                                <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
+                                    BDT 12,990
+                                </div>
+                                <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
+                                    BDT 13,990
+                                </div>
+                            </div>
+                            <div class="text-xs">Per person</div>
+                        </div>
+                        <div class="col-span-1 flex justify-end">
+                            <button class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                type="button" style="height: 30px; line-height: 0;">Book now</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- most popular package -->
+    <!-- counter section -->
 
-        <div class="container mx-auto">
-            <div class="text-center text-2xl text-skyblue mb-2">Choose your tour</div>
+    <div
+        class="relative my-4 flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=956&q=80')] bg-center bg-cover md:h-96 h-auto">
+        <!-- <img src="bg-[url('https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=956&q=80')] " class="md:h-72 object-cover object-center w-full" alt=""> -->
+
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: -1;">
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 py-10 md:justify-around items-center w-full h-full md:px-40">
+
+            <div>
+                <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                    class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                    <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                </div>
+                <div class="text-xl font-semibold mt-4 text-white text-center">300</div>
+                <div class="text-xl font-semibold mt-1 text-white text-center">Flight Booking</div>
+            </div>
+
+            <div>
+                <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                    class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                    <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                </div>
+                <div class="text-xl font-semibold mt-4 text-white text-center">30K</div>
+                <div class="text-xl font-semibold mt-1 text-white text-center">Total Users</div>
+            </div>
+
+            <div>
+                <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                    class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                    <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                </div>
+                <div class="text-xl font-semibold mt-4 text-white text-center">279</div>
+                <div class="text-xl font-semibold mt-1 text-white text-center">Hotel Booking</div>
+            </div>
+
+            <div>
+                <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
+                    class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
+                    <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
+                </div>
+                <div class="text-xl font-semibold mt-4 text-white text-center">300</div>
+                <div class="text-xl font-semibold mt-1 text-white text-center">Amazing Tour</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- ******* -->
+    <div class="grid lg:grid-cols-2 md:mx-52 mx-5 my-14 shadow-lg md:-mb-36 rounded-lg">
+        <div
+            class="bg-[url('https://images.unsplash.com/photo-1566438480900-0609be27a4be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60')] h-52 bg-cover bg-center">
+            <!-- <img src="../src/img/blog-4.jpg" alt=""> -->
+        </div>
+        <div class="p-5 flex flex-col justify-center bg-white">
+            <span class=" text-xs text-skyblue font-semibold mb-3">GET FREE</span>
+            <span class=" text-3xl font-bold ">Now Apply For Visa</span>
+            <span class=" text-sm mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </span>
+            <span>
+                <button class="bg-skyblue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3">
+                    View more <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </span>
+
+        </div>
+    </div>
+
+    <!-- ********** -->
+
+    <div
+        class="md:py-10 p-5 flex items-center float-left w-full bg-[url('https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg')] bg-center bg-cover">
+        <!-- <img class="mb-16 inline-block -translate-y-44 absolute -z-10 w-full h-full" src="../src/img/blog-2.jpg"
+                alt=""> -->
+
+        <div class="grid gap-5 md:grid-cols-2 top-0 md:mx-36 mx-5 md:pt-36">
+            <div class="flex lg:flex-row flex-col  bg-white rounded-sm overflow-hidden">
+                <div class="flex-1 object-cover">
+                    <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                </div>
+
+                <div class="flex-1 p-5 justify-center flex flex-col">
+                    <div class="text-xl text-skyblue mb-3">Canada</div>
+                    <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                        volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                    <div>
+                        <button class="btn font-semibold">Read more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex bg-white lg:flex-row flex-col">
+                <div class="flex-1">
+                    <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                </div>
+
+                <div class="flex-1 p-5 justify-center flex flex-col">
+                    <div class="text-xl text-skyblue mb-3">Canada</div>
+                    <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                        volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                    <div>
+                        <button class="btn font-semibold">Read more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex bg-white lg:flex-row flex-col">
+                <div class="flex-1">
+                    <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                </div>
+
+                <div class="flex-1 p-5 justify-center flex flex-col">
+                    <div class="text-xl text-skyblue mb-3">Canada</div>
+                    <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                        volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                    <div>
+                        <button class="btn font-semibold">Read more</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex bg-white lg:flex-row flex-col">
+                <div class="flex-1">
+                    <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
+                </div>
+
+                <div class="flex-1 p-5 justify-center flex flex-col">
+                    <div class="text-xl text-skyblue mb-3">Canada</div>
+                    <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
+                        volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
+                    <div>
+                        <button class="btn font-semibold">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <!-- most popular package 2 -->
+
+
+        <div class="md:mx-24">
+            <div class="text-center text-lg font-semibold text-skyblue my-5 float-left w-full">Choose your hotel</div>
             <div class="text-center text-3xl font-semibold mb-4">Most Popular Tour Packages</div>
 
             <div class="flex w-full justify-center items-center mb-4 md:flex-row flex-col ">
                 <div class="w-36 text-center pb-1">Special Deals</div>
-                <div class="w-36 text-center border-b-4 pb-1 border-blue-500">Populer</div>
+                <div class="w-36 text-center border-b-2 pb-1 border-sky-500">Populer</div>
                 <div class="w-36 text-center pb-1">Recommendation</div>
                 <div class="w-36 text-center pb-1">Best Price</div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-3 lg:mx-auto mx-5">
                 <!-- 1st card -->
                 <div class="rounded-md relative overflow-hidden">
                     <span
@@ -465,7 +876,7 @@
                     </span>
                     <img src="../src/img/blog-2.jpg" alt="">
 
-                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                    <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
                         <div class="grid grid-cols-4">
                             <div class="flex flex-col justify-center items-center p-2 text-sm">
                                 <i class="fa-solid fa-plane"></i>
@@ -475,7 +886,7 @@
                                 <i class="fa-solid fa-bed"></i>
                                 1 hotel
                             </div>
-                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
                                 <i class="fa-solid fa-person-hiking"></i>
                                 0 Activity
                             </div>
@@ -509,7 +920,11 @@
                                 <div class="text-xs">Per person</div>
                             </div>
                             <div class="col-span-1 flex justify-end">
-                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                                <button
+                                    class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                    type="button" style="height: 30px; line-height: 0;">Book now</button>
+
+
                             </div>
                         </div>
                     </div>
@@ -526,7 +941,7 @@
                     </span>
                     <img src="../src/img/blog-2.jpg" alt="">
 
-                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                    <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
                         <div class="grid grid-cols-4">
                             <div class="flex flex-col justify-center items-center p-2 text-sm">
                                 <i class="fa-solid fa-plane"></i>
@@ -536,7 +951,7 @@
                                 <i class="fa-solid fa-bed"></i>
                                 1 hotel
                             </div>
-                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
                                 <i class="fa-solid fa-person-hiking"></i>
                                 0 Activity
                             </div>
@@ -570,14 +985,12 @@
                                 <div class="text-xs">Per person</div>
                             </div>
                             <div class="col-span-1 flex justify-end">
-                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                                <button
+                                    class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                    type="button" style="height: 30px; line-height: 0;">Book now</button>
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
                 <!-- 3rd card -->
                 <div class="rounded-md relative overflow-hidden">
@@ -587,7 +1000,7 @@
                     </span>
                     <img src="../src/img/blog-2.jpg" alt="">
 
-                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                    <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
                         <div class="grid grid-cols-4">
                             <div class="flex flex-col justify-center items-center p-2 text-sm">
                                 <i class="fa-solid fa-plane"></i>
@@ -597,7 +1010,7 @@
                                 <i class="fa-solid fa-bed"></i>
                                 1 hotel
                             </div>
-                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
                                 <i class="fa-solid fa-person-hiking"></i>
                                 0 Activity
                             </div>
@@ -631,14 +1044,12 @@
                                 <div class="text-xs">Per person</div>
                             </div>
                             <div class="col-span-1 flex justify-end">
-                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
+                                <button
+                                    class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                    type="button" style="height: 30px; line-height: 0;">Book now</button>
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
                 <!-- 4th card -->
                 <div class="rounded-md relative overflow-hidden">
@@ -648,7 +1059,7 @@
                     </span>
                     <img src="../src/img/blog-2.jpg" alt="">
 
-                    <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
+                    <div class=" border border-sky-300 rounded-md translate-y-[-5px] bg-white">
                         <div class="grid grid-cols-4">
                             <div class="flex flex-col justify-center items-center p-2 text-sm">
                                 <i class="fa-solid fa-plane"></i>
@@ -658,7 +1069,7 @@
                                 <i class="fa-solid fa-bed"></i>
                                 1 hotel
                             </div>
-                            <div class="flex flex-col justify-center items-center p-2 text-sm">
+                            <div class="flex flex-col justify-center items-center p-2 text-sm whitespace-nowrap">
                                 <i class="fa-solid fa-person-hiking"></i>
                                 0 Activity
                             </div>
@@ -692,483 +1103,242 @@
                                 <div class="text-xs">Per person</div>
                             </div>
                             <div class="col-span-1 flex justify-end">
-                                <button class="bg-skyblue block border p-2" type="button">Book now</button>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-                </div>
-            </div>
-        </div>
-
-        <!-- counter section -->
-
-        <div class="relative my-4 flex items-center justify-center">
-            <img src="../src/img/blog-2.jpg" class="md:h-72 object-cover object-center w-full" alt="">
-            <div
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);">
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 absolute md:justify-around items-center w-full h-full">
-
-                <div>
-                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
-                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
-                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
-                    </div>
-                    <div class="text-xl font-semibold mt-4 text-white text-center">300</div>
-                    <div class="text-xl font-semibold mt-1 text-white text-center">Flight Booking</div>
-                </div>
-
-                <div>
-                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
-                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
-                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
-                    </div>
-                    <div class="text-xl font-semibold mt-4 text-white text-center">30K</div>
-                    <div class="text-xl font-semibold mt-1 text-white text-center">Total Users</div>
-                </div>
-
-                <div>
-                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
-                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
-                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
-                    </div>
-                    <div class="text-xl font-semibold mt-4 text-white text-center">279</div>
-                    <div class="text-xl font-semibold mt-1 text-white text-center">Hotel Booking</div>
-                </div>
-
-                <div>
-                    <div style="outline: 8px solid rgba(255, 255, 255, 0.226); outline-offset: 5px;"
-                        class="bg-white bg-opacity-25 rounded-full w-20 h-20 flex justify-center items-center mx-auto">
-                        <i class="fa-solid fa-plane-circle-check text-white text-xl"></i>
-                    </div>
-                    <div class="text-xl font-semibold mt-4 text-white text-center">300</div>
-                    <div class="text-xl font-semibold mt-1 text-white text-center">Amazing Tour</div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- ******* -->
-        <div class="grid lg:grid-cols-2 md:mx-52 mx-5 my-14 shadow-lg">
-            <div class="1">
-                <img src="../src/img/blog-4.jpg" alt="">
-            </div>
-            <div class="p-10 flex flex-col justify-center bg-white">
-                <span class=" text-xs text-skyblue font-semibold mb-3">GET FREE</span>
-                <span class=" text-3xl font-bold ">Now Apply For Visa</span>
-                <span class=" text-sm mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </span>
-                <span>
-                    <button class="bg-skyblue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-3">
-                        View more <i class="fa-solid fa-arrow-right-long"></i>
-                    </button>
-                </span>
-
-            </div>
-        </div>
-
-        <!-- ********** -->
-
-        <div class="float-left w-full relative" style="height: 650px;">
-            <img class="mb-16 inline-block -translate-y-44 absolute -z-10 w-full h-full" src="../src/img/blog-2.jpg"
-                alt="">
-
-            <div class="grid gap-3 md:grid-cols-2 absolute top-0 md:mx-36 mx-5">
-                <div class="flex bg-white rounded-sm overflow-hidden">
-                    <div class="flex-1 object-cover">
-                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
-                    </div>
-
-                    <div class="flex-1 p-5 justify-center flex flex-col">
-                        <div class="text-xl text-skyblue mb-3">Canada</div>
-                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
-                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
-                        <div>
-                            <button class="btn font-semibold">Read more</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex bg-white">
-                    <div class="flex-1">
-                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
-                    </div>
-
-                    <div class="flex-1 p-5 justify-center flex flex-col">
-                        <div class="text-xl text-skyblue mb-3">Canada</div>
-                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
-                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
-                        <div>
-                            <button class="btn font-semibold">Read more</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex bg-white">
-                    <div class="flex-1">
-                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
-                    </div>
-
-                    <div class="flex-1 p-5 justify-center flex flex-col">
-                        <div class="text-xl text-skyblue mb-3">Canada</div>
-                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
-                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
-                        <div>
-                            <button class="btn font-semibold">Read more</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex bg-white">
-                    <div class="flex-1">
-                        <img class="w-full h-full float-left" src="../src/img/blog-3.jpg" alt="">
-                    </div>
-
-                    <div class="flex-1 p-5 justify-center flex flex-col">
-                        <div class="text-xl text-skyblue mb-3">Canada</div>
-                        <div class="text-sm mb-3">Lorem ipsum dolor sit amet consectetur. Varius quam eget
-                            volutpat ullamcorper maecenas turpis lorem pellentesque.</div>
-                        <div>
-                            <button class="btn font-semibold">Read more</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="-translate-y-40">
-            <!-- most popular package 2 -->
-
-            <div class="container mx-auto mb-5">
-                <div class="text-center text-2xl text-skyblue mb-2">Choose your hotel</div>
-                <div class="text-center text-3xl font-semibold mb-4">Most Popular Tour Packages</div>
-
-           
-
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
-                    <!-- 1st card -->
-                    <div class="rounded-md relative overflow-hidden">
-                        <span
-                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
-                            <i class="fa-solid fa-heart"></i>
-                        </span>
-                        <img src="../src/img/blog-2.jpg" alt="">
-
-                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
-                            <div class="grid grid-cols-4">
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-plane"></i>
-                                    2 flight
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-bed"></i>
-                                    1 hotel
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-person-hiking"></i>
-                                    0 Activity
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-car"></i>
-                                    <span class="whitespace-nowrap">
-                                        2 Transfers
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="font-semibold mx-3 text-sm">
-                                Copenhagen to Helsinki – 7<br>
-                                Days
-                            </div>
-
-                            <div class="flex items-center mx-3 mt-2">
-                                <i class="fa-solid fa-location-dot mr-2"></i>
-                                Copenhagen, Denmark
-                            </div>
-
-                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
-                                <div class="col-span-1">
-                                    <div class="flex items-center">
-                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
-                                            BDT 12,990
-                                        </div>
-                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
-                                            BDT 13,990
-                                        </div>
-                                    </div>
-                                    <div class="text-xs">Per person</div>
-                                </div>
-                                <div class="col-span-1 flex justify-end">
-                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                    <!-- 2nd card -->
-                    <div class="rounded-md relative overflow-hidden">
-                        <span
-                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
-                            <i class="fa-solid fa-heart"></i>
-                        </span>
-                        <img src="../src/img/blog-2.jpg" alt="">
-
-                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
-                            <div class="grid grid-cols-4">
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-plane"></i>
-                                    2 flight
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-bed"></i>
-                                    1 hotel
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-person-hiking"></i>
-                                    0 Activity
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-car"></i>
-                                    <span class="whitespace-nowrap">
-                                        2 Transfers
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="font-semibold mx-3 text-sm">
-                                Copenhagen to Helsinki – 7<br>
-                                Days
-                            </div>
-
-                            <div class="flex items-center mx-3 mt-2">
-                                <i class="fa-solid fa-location-dot mr-2"></i>
-                                Copenhagen, Denmark
-                            </div>
-
-                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
-                                <div class="col-span-1">
-                                    <div class="flex items-center">
-                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
-                                            BDT 12,990
-                                        </div>
-                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
-                                            BDT 13,990
-                                        </div>
-                                    </div>
-                                    <div class="text-xs">Per person</div>
-                                </div>
-                                <div class="col-span-1 flex justify-end">
-                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                    <!-- 3rd card -->
-                    <div class="rounded-md relative overflow-hidden">
-                        <span
-                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
-                            <i class="fa-solid fa-heart"></i>
-                        </span>
-                        <img src="../src/img/blog-2.jpg" alt="">
-
-                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
-                            <div class="grid grid-cols-4">
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-plane"></i>
-                                    2 flight
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-bed"></i>
-                                    1 hotel
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-person-hiking"></i>
-                                    0 Activity
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-car"></i>
-                                    <span class="whitespace-nowrap">
-                                        2 Transfers
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="font-semibold mx-3 text-sm">
-                                Copenhagen to Helsinki – 7<br>
-                                Days
-                            </div>
-
-                            <div class="flex items-center mx-3 mt-2">
-                                <i class="fa-solid fa-location-dot mr-2"></i>
-                                Copenhagen, Denmark
-                            </div>
-
-                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
-                                <div class="col-span-1">
-                                    <div class="flex items-center">
-                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
-                                            BDT 12,990
-                                        </div>
-                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
-                                            BDT 13,990
-                                        </div>
-                                    </div>
-                                    <div class="text-xs">Per person</div>
-                                </div>
-                                <div class="col-span-1 flex justify-end">
-                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                    <!-- 4th card -->
-                    <div class="rounded-md relative overflow-hidden">
-                        <span
-                            class="absolute top-3 left-3 bg-blue-100 text-blue-800 text-xs font-medium mr-2 w-6 h-6 rounded flex justify-center items-center cursor-pointer">
-                            <i class="fa-solid fa-heart"></i>
-                        </span>
-                        <img src="../src/img/blog-2.jpg" alt="">
-
-                        <div class=" border border-black rounded-md translate-y-[-5px] bg-white">
-                            <div class="grid grid-cols-4">
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-plane"></i>
-                                    2 flight
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-bed"></i>
-                                    1 hotel
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-person-hiking"></i>
-                                    0 Activity
-                                </div>
-                                <div class="flex flex-col justify-center items-center p-2 text-sm">
-                                    <i class="fa-solid fa-car"></i>
-                                    <span class="whitespace-nowrap">
-                                        2 Transfers
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="font-semibold mx-3 text-sm">
-                                Copenhagen to Helsinki – 7<br>
-                                Days
-                            </div>
-
-                            <div class="flex items-center mx-3 mt-2">
-                                <i class="fa-solid fa-location-dot mr-2"></i>
-                                Copenhagen, Denmark
-                            </div>
-
-                            <div class="grid grid-cols-2 mx-3 mt-2 pb-3">
-                                <div class="col-span-1">
-                                    <div class="flex items-center">
-                                        <div class="flex-2 whitespace-nowrap mr-2 font-semibold">
-                                            BDT 12,990
-                                        </div>
-                                        <div class="text-darkgray text-xs flex-1 whitespace-nowrap">
-                                            BDT 13,990
-                                        </div>
-                                    </div>
-                                    <div class="text-xs">Per person</div>
-                                </div>
-                                <div class="col-span-1 flex justify-end">
-                                    <button class="bg-skyblue block border p-2" type="button">Book now</button>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- most popular package 3 -->
-
-            <div class="container mx-auto">
-                <div class="text-center text-2xl text-skyblue mb-2">meet the team</div>
-                <div class="text-center text-3xl font-semibold mb-4">Our Dedicated Team</div>
-
-
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-2">
-                    <!-- 1st card -->
-                    <div class="rounded-md relative overflow-hidden">
-
-                        <img src="../src/img/blog1.jpg" alt="">
-
-                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
-
-                            <div class="font-semibol text-xl font-semibold mb-2">
-                                james Logan
-                            </div>
-                            <div class="font-semibold text-sm">
-                                CEO / DRIECTOR
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 2nd card -->
-                    <div class="rounded-md relative overflow-hidden">
-
-                        <img src="../src/img/blog1.jpg" alt="">
-
-                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
-
-                            <div class="font-semibol text-xl font-semibold mb-2">
-                                james Logan
-                            </div>
-                            <div class="font-semibold text-sm">
-                                CEO / DRIECTOR
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 3rd card -->
-                    <div class="rounded-md relative overflow-hidden">
-
-                        <img src="../src/img/blog1.jpg" alt="">
-
-                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
-
-                            <div class="font-semibol text-xl font-semibold mb-2">
-                                james Logan
-                            </div>
-                            <div class="font-semibold text-sm">
-                                CEO / DRIECTOR
-                            </div>
-                        </div>
-                    </div>
-                    <!-- 4th card -->
-                    <div class="rounded-md relative overflow-hidden">
-
-                        <img src="../src/img/blog1.jpg" alt="">
-
-                        <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
-
-                            <div class="font-semibol text-xl font-semibold mb-2">
-                                james Logan
-                            </div>
-                            <div class="font-semibold text-sm">
-                                CEO / DRIECTOR
+                                <button
+                                    class="text-sm rounded-md text-white bg-sky-400 hover:bg-sky-500 block border p-2"
+                                    type="button" style="height: 30px; line-height: 0;">Book now</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- most popular package 3 -->
+
+        <div class="md:mx-24">
+            <div class="text-center text-lg font-semibold text-skyblue my-5 float-left w-full">meet the team</div>
+            <div class="text-center text-3xl font-semibold mb-4">Our Dedicated Team</div>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-2 lg:mx-auto mx-5">
+                <!-- 1st card -->
+                <div class="rounded-md relative overflow-hidden">
+
+                    <img src="../src/img/blog1.jpg" alt="">
+
+                    <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                        <div class="font-semibol text-xl font-semibold mb-2">
+                            james Logan
+                        </div>
+                        <div class="font-semibold text-sm">
+                            CEO / DRIECTOR
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd card -->
+                <div class="rounded-md relative overflow-hidden">
+
+                    <img src="../src/img/blog1.jpg" alt="">
+
+                    <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                        <div class="font-semibol text-xl font-semibold mb-2">
+                            james Logan
+                        </div>
+                        <div class="font-semibold text-sm">
+                            CEO / DRIECTOR
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd card -->
+                <div class="rounded-md relative overflow-hidden">
+
+                    <img src="../src/img/blog1.jpg" alt="">
+
+                    <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                        <div class="font-semibol text-xl font-semibold mb-2">
+                            james Logan
+                        </div>
+                        <div class="font-semibold text-sm">
+                            CEO / DRIECTOR
+                        </div>
+                    </div>
+                </div>
+                <!-- 4th card -->
+                <div class="rounded-md relative overflow-hidden">
+
+                    <img src="../src/img/blog1.jpg" alt="">
+
+                    <div class="text-center shadow p-5 mx-5 rounded-md translate-y-[-30px] bg-white">
+
+                        <div class="font-semibol text-xl font-semibold mb-2">
+                            james Logan
+                        </div>
+                        <div class="font-semibold text-sm">
+                            CEO / DRIECTOR
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- *********** -->
+
+    <div class="md:mx-24 mb-5">
+        <div class="text-center text-3xl font-semibold mb-4">Most Popular Tour Packages</div>
+        <div class="grid md:grid-cols-4 grid-cols-1 gap-5 text-center relative mx-5">
+            <span
+                class="absolute -left-5 top-10 w-8 h-8 bg-white border rounded-full flex justify-center items-center cursor-pointer"><i
+                    class="fa-solid fa-arrow-left"></i></span>
+            <div class="border flex justify-center items-center p-8">
+                <img src="/src/img/hoyoverse-logo-42461.png" alt="" class="h-12">
+
+            </div>
+            <div class="border flex justify-center items-center p-8">
+                <img src="/src/img/logo2.png" alt="" class="h-12">
+            </div>
+            <div class="border flex justify-center items-center p-8">
+                <img src="/src/img/logo3.png" alt="" class="h-12">
+
+            </div>
+            <div class="border flex justify-center items-center p-8">
+                <img src="/src/img/logo2.png" alt="" class="h-12">
+
+            </div>
+            <span
+                class="absolute -right-5 top-10 w-8 h-8 bg-white border rounded-full flex justify-center items-center cursor-pointer"><i
+                    class="fa-solid fa-arrow-right"></i></span>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="p-5 text-white bg-darkblue">
+        <!-- footer top section -->
+        <div class="grid md:grid-cols-3 gap-4 border lg:mx-44 md:p-8 p-2">
+            <div class="md:border-r">
+                <div class="flex justify-center items-center">
+                    <div class="w-12 h-12 bg-skyblue flex justify-center items-center me-4 rounded-md">
+                        <i class="fa-solid fa-phone-volume text-xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="">Call us</div>
+                        <div class="">+880-766-1234</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:border-r">
+                <div class="flex justify-center items-center">
+                    <div class="w-12 h-12 bg-skyblue flex justify-center items-center me-4 rounded-md">
+                        <i class="fa-solid fa-phone-volume text-xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="">Call us</div>
+                        <div class="">+880-766-1234</div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex justify-center items-center">
+                    <div class="w-12 h-12 bg-skyblue flex justify-center items-center me-4 rounded-md">
+                        <i class="fa-solid fa-phone-volume text-xl"></i>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="">Call us</div>
+                        <div class="">+880-766-1234</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer middle section -->
+        <div class="grid md:grid-cols-4 gap-10 md:mx-20 items-center">
+            <div class="">
+                <img src="/src/img/logo3.png" alt="" class="md:w-48">
+                <div class="text-xs my-2">
+                    Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+                    undoubtable source.
+                </div>
+
+                <div class="social">
+                    <div class="mt-4 font-semibold">
+                        Get Social
+                    </div>
+                    <div class="flex pe-10 mt-1 text-lg">
+                        <i class="fa-brands fa-facebook-f me-5 text-2xl"></i>
+                        <i class="fa-brands fa-linkedin-in me-5 text-2xl"></i>
+                        <i class="fa-brands fa-instagram me-5 text-2xl"></i>
+                        <i class="fa-brands fa-twitter me-5 text-2xl"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="">
+                <div class="mb-3 font-semibold">
+                    Contact info
+                </div>
+                <div class="mb-3">
+                    432 West Green road
+                    Dhaka,
+                </div>
+                <div class="mb-3">
+                    <i class="fa-solid fa-phone"></i>
+                    +880-866-8877
+                </div>
+                <div class="mb-3">
+                    <i class="fa-solid fa-envelope"></i>
+                    example@gmail.com
+                </div>
+                <div class="mb-3 opacity-0">
+                    <i class="fa-solid fa-envelope"></i>
+                    example@gmail.com
+                </div>
+            </div>
+
+
+            <div class="">
+                <div class="mb-3 font-semibold">
+                    Helpful Links
+                </div>
+                <div class="mb-3">
+                    Abouts Us
+                </div>
+                <div class="mb-3">
+                    Customer Support
+                </div>
+                <div class="mb-3">
+                    Privacy &Policy
+                </div>
+                <div class="mb-3">
+                    Contact us
+                </div>
+            </div>
+
+            <div class="">
+                <div class="mb-3 font-semibold">
+                    Destinations
+                </div>
+                <div class="mb-3">
+                    Tours
+                </div>
+                <div class="mb-3">
+                    Tours
+                </div>
+                <div class="mb-3">
+                    Travel Blog
+                </div>
+                <div class="mb-3">
+                    FAQ
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
