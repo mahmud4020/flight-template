@@ -24,7 +24,11 @@ module.exports = {
         900: "#164e63",
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-bg": 'url("/assets/img/blog-2.jpg")',
+      },
+    },
   },
   plugins: [],
 };
